@@ -64,9 +64,11 @@ const Portfolio = () => {
                 
                 <div key={id} className=' shadow-md shadow-gray-600 rounded-lg'>
                     <img src={src} alt="" className=' rounded-md duration-200 hover:scale-105'/>
-                    <div className='flex items-center justify-center mt-4 text-xl'>{name}</div>
-                    <div className='flex items-center justify-center '>
-                        <button onClick={() => openLink(demolink)} className='w-1/2 px-6 pb-3 m-4 duration-200 hover:scale-105 text-xl'>{id === 5 ? 'Read' : 'Demo'}</button>
+                    <div className='flex flex-col items-center justify-center mt-4 text-xl'>{name}</div>
+                    <div className='flex flex-row items-center justify-center '>
+                        {id === 5 ? <button onClick={() => openLink(demolink)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-xl'>Read</button> :
+                        <button onClick={() => openLink(demolink)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-xl'>Demo</button>
+                        }
                         {id === 5 ? <></> : <button onClick={() => openLink(codelink)} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-xl'>Code</button>}
                     </div>
                 </div>
