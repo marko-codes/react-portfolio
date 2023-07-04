@@ -11,29 +11,29 @@ const Portfolio = () => {
         {
             id: 1,
             src: nps,
-            demolink: '',
-            codelink: '',
+            demolink: 'https://nps-markomaricic.up.railway.app',
+            codelink: 'https://github.com/marko-codes/nps-statistics',
             name: 'NPS Statistics frontend'
         },
         {
             id: 2,
             src: npsbackend,
-            demolink: '',
-            codelink: '',
+            demolink: 'https://nps-markomaricic.up.railway.app',
+            codelink: 'https://github.com/marko-codes/nps-statistics-api',
             name: 'NPS Statistics Backend'
         },
         {
             id: 3,
             src: myportfolio,
-            demolink:'',
-            codelink:'',
+            demolink:'https://markomaricic.up.railway.app',
+            codelink:'https://github.com/marko-codes/react-portfolio',
             name: 'My Portfolio'
         },
         {
             id: 4,
             src: kanban,
-            demolink:'',
-            codelink:'',
+            demolink:'https://kanban-markomaricic.up.railway.app',
+            codelink:'https://github.com/marko-codes/kanban-progress-board',
             name: 'Kanban-Progress Board'
         },
         {
