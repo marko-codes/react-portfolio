@@ -13,7 +13,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://www.linkedin.com/in/marko-maričić',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30}/>
                 </>
             ),
-            href: 'https://github.com',
+            href: 'https://github.com/marko-codes?tab=repositories',
             
         },
         {
@@ -41,11 +41,11 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30}/>
+                CV <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: 'https://google.com',
-            download: false,
+            href: '/Marko+Maricic+CV.pdf',
+            download: true,
             style: "rounded-br-md"
         }
     ]
