@@ -1,6 +1,7 @@
 # My portfolio
 
-This is my portfolio. Project was built with React and Tailwind.
+This is my portfolio. 
+Project was built with React and Tailwind.
 [Link to DEMO](https://markomaricic.up.railway.app)
 
 
