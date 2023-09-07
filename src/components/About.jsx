@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I'm a skilled Full Stack Developer with 3 years of experience.
+        I'm a skilled Full Stack Developer with 4 years of experience.
          Skilled in both front-end and back-end development, 
          I've successfully delivered numerous projects aligned with client requirements.
           My expertise spans programming languages, frameworks, and databases. 
