@@ -27,9 +27,10 @@ const About = () => {
 
         <p className="text-xl">
         With a deep passion for technology, 
-        I am always eager to explore the latest trends and emerging tools that can enhance the development process.
-        If you are seeking a dedicated Full Stack Developer who can bring your ideas to life,
-         I am ready to collaborate with you. Let's work together to develop innovative solutions for your organization's success.
+        I am currently most interested in software testing technologies and would love to further develop my expertise in this field.
+         If you are seeking a dedicated Full Stack Developer who can bring your ideas to life,
+          I am ready to collaborate with you. Let's work together to develop innovative solutions for your organization's success,
+           with a particular focus on advancing software testing technologies.
         </p>
       </div>
     </div>
